@@ -1,0 +1,42 @@
+c:\users\marek\documents\visual studio 2015\Projects\ConsoleApplication10\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe.config
+c:\users\marek\documents\visual studio 2015\Projects\ConsoleApplication10\ConsoleApplication10\obj\Debug\ConsoleApplication10.csprojResolveAssemblyReference.cache
+c:\users\marek\documents\visual studio 2015\Projects\ConsoleApplication10\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe
+c:\users\marek\documents\visual studio 2015\Projects\ConsoleApplication10\ConsoleApplication10\bin\Debug\ConsoleApplication10.pdb
+c:\users\marek\documents\visual studio 2015\Projects\ConsoleApplication10\ConsoleApplication10\obj\Debug\ConsoleApplication10.exe
+c:\users\marek\documents\visual studio 2015\Projects\ConsoleApplication10\ConsoleApplication10\obj\Debug\ConsoleApplication10.pdb
+F:\seriale\nowe\the flash\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe.config
+F:\seriale\nowe\the flash\ConsoleApplication10\obj\Debug\ConsoleApplication10.exe
+F:\seriale\nowe\the flash\ConsoleApplication10\obj\Debug\ConsoleApplication10.pdb
+F:\seriale\nowe\the flash\ConsoleApplication10\obj\Debug\ConsoleApplication10.csprojResolveAssemblyReference.cache
+F:\seriale\nowe\the flash\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe
+F:\seriale\nowe\the flash\ConsoleApplication10\bin\Debug\ConsoleApplication10.pdb
+C:\Users\Marek-laptop\Desktop\New folder (2)\the flash (2)\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe.config
+C:\Users\Marek-laptop\Desktop\New folder (2)\the flash (2)\ConsoleApplication10\obj\Debug\ConsoleApplication10.exe
+C:\Users\Marek-laptop\Desktop\New folder (2)\the flash (2)\ConsoleApplication10\obj\Debug\ConsoleApplication10.pdb
+C:\Users\Marek-laptop\Desktop\New folder (2)\the flash (2)\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe
+C:\Users\Marek-laptop\Desktop\New folder (2)\the flash (2)\ConsoleApplication10\bin\Debug\ConsoleApplication10.pdb
+C:\Users\Marek-laptop\Desktop\New folder (2)\the flash (2)\ConsoleApplication10\obj\Debug\ConsoleApplication10.csprojResolveAssemblyReference.cache
+C:\Users\Marek\Downloads\New folder (2)\the flash (2)\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe.config
+C:\Users\Marek\Downloads\New folder (2)\the flash (2)\ConsoleApplication10\obj\Debug\ConsoleApplication10.exe
+C:\Users\Marek\Downloads\New folder (2)\the flash (2)\ConsoleApplication10\obj\Debug\ConsoleApplication10.pdb
+C:\Users\Marek\Downloads\New folder (2)\the flash (2)\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe
+C:\Users\Marek\Downloads\New folder (2)\the flash (2)\ConsoleApplication10\bin\Debug\ConsoleApplication10.pdb
+C:\Users\Marek\Downloads\New folder (2)\the flash (2)\ConsoleApplication10\obj\Debug\ConsoleApplication10.csprojResolveAssemblyReference.cache
+C:\Users\Marek\Desktop\dzialajaca dijkstra\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe.config
+C:\Users\Marek\Desktop\dzialajaca dijkstra\ConsoleApplication10\obj\Debug\ConsoleApplication10.exe
+C:\Users\Marek\Desktop\dzialajaca dijkstra\ConsoleApplication10\obj\Debug\ConsoleApplication10.pdb
+C:\Users\Marek\Desktop\dzialajaca dijkstra\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe
+C:\Users\Marek\Desktop\dzialajaca dijkstra\ConsoleApplication10\bin\Debug\ConsoleApplication10.pdb
+C:\Users\Marek\Desktop\dzialajaca dijkstra\ConsoleApplication10\obj\Debug\ConsoleApplication10.csprojResolveAssemblyReference.cache
+C:\Users\Marek\Desktop\dzialajaca dijkstra - Copy\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe.config
+C:\Users\Marek\Desktop\dzialajaca dijkstra - Copy\ConsoleApplication10\obj\Debug\ConsoleApplication10.exe
+C:\Users\Marek\Desktop\dzialajaca dijkstra - Copy\ConsoleApplication10\obj\Debug\ConsoleApplication10.pdb
+C:\Users\Marek\Desktop\dzialajaca dijkstra - Copy\ConsoleApplication10\obj\Debug\ConsoleApplication10.csprojResolveAssemblyReference.cache
+C:\Users\Marek\Desktop\dzialajaca dijkstra - Copy\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe
+C:\Users\Marek\Desktop\dzialajaca dijkstra - Copy\ConsoleApplication10\bin\Debug\ConsoleApplication10.pdb
+C:\Users\Karolina\Documents\3 semestr\AISIDE\pierwsze laboratorium\1\BrzekMatusiewicz\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe.config
+C:\Users\Karolina\Documents\3 semestr\AISIDE\pierwsze laboratorium\1\BrzekMatusiewicz\ConsoleApplication10\obj\Debug\ConsoleApplication10.exe
+C:\Users\Karolina\Documents\3 semestr\AISIDE\pierwsze laboratorium\1\BrzekMatusiewicz\ConsoleApplication10\obj\Debug\ConsoleApplication10.pdb
+C:\Users\Karolina\Documents\3 semestr\AISIDE\pierwsze laboratorium\1\BrzekMatusiewicz\ConsoleApplication10\bin\Debug\ConsoleApplication10.exe
+C:\Users\Karolina\Documents\3 semestr\AISIDE\pierwsze laboratorium\1\BrzekMatusiewicz\ConsoleApplication10\bin\Debug\ConsoleApplication10.pdb
+C:\Users\Karolina\Documents\3 semestr\AISIDE\pierwsze laboratorium\1\BrzekMatusiewicz\ConsoleApplication10\obj\Debug\ConsoleApplication10.csprojResolveAssemblyReference.cache

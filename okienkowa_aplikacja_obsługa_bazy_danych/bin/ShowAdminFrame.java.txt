@@ -1,0 +1,40 @@
+	protected JPanel child1;
+
+od 236
+			child = new JPanel(); 
+    			child.setLayout(new FlowLayout(FlowLayout.LEFT, 10, 45));
+    			child1 = new JPanel();
+    			child1.setLayout(new GridLayout(10,2));  
+    			child1.add( new JLabel("Wybierz pole do sortowania:") );
+    			listCol = new JComboBox<String>(columns);
+    			iflistcol = true;
+    			child1.add(listCol);
+    			child.add(child1);
+    			//otherCol = true
+    			sAdminPanel.add(child, BorderLayout.WEST);
+
+od 366
+			child = new JPanel(); 
+			child.setLayout(new FlowLayout(FlowLayout.LEFT, 10, 45));
+			child1 = new JPanel();
+			child1.setLayout(new GridLayout(10,2));  
+			child1.add( new JLabel("Wybierz pole do sortowania:") );
+			listCol = new JComboBox<String>(columns);
+			iflistcol = true;
+			child1.add(listCol);
+			child.add(child1);
+			//otherCol = true
+			sAdminPanel.add(child, BorderLayout.WEST);
+
+od 468
+			child = new JPanel(); 
+    			child.setLayout(new FlowLayout(FlowLayout.LEFT, 10, 45));
+    			child1 = new JPanel();
+    			child1.setLayout(new GridLayout(10,2));  
+    			child1.add( new JLabel("Wybierz pole do sortowania:") );
+    			listCol = new JComboBox<String>(columns);
+    			iflistcol = true;
+    			child1.add(listCol);
+    			child.add(child1);
+    			//otherCol = true
+    			sAdminPanel.add(child, BorderLayout.WEST);
