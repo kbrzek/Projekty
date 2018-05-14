@@ -97,15 +97,6 @@ public class ModEmployeeFrame extends JFrame implements ActionListener{
 	public String getnew()
 	{
 		boolean prev = false;
-		//String imie = iF.getText();
-		//System.out.println(imie);
-		//if(imie.equals("")) sql= "UPDATE PRACOWNICY SET";
-		//	else if(Pattern.matches("[A-Z][a-z]+", imie) == true)
-		//		{
-		//			sql= "UPDATE PRACOWNICY SET Imie ='" + imie + "'";
-		//			prev=true;
-		//		}
-		//	else System.out.println("Z³y format wprowadzonych danych");
 		sql= "UPDATE PRACOWNICY SET";
 		String nazw = nF.getText();		
 		System.out.println(nazw);
