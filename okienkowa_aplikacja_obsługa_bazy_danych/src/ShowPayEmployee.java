@@ -80,7 +80,6 @@ public class ShowPayEmployee extends JFrame implements ActionListener{
 			
 			ResultSetMetaData rsmd = rs.getMetaData();
 			int numberOfColumns = rsmd.getColumnCount();
-			//System.out.println(numberOfColumns);
 			
 			int i=0;
 			String[] columnNames = {"ID", "Kwota Podstawowa", "Kwota Dodatkowa", "Data Wynagrodzenia"};
@@ -92,7 +91,6 @@ public class ShowPayEmployee extends JFrame implements ActionListener{
 				data[i][3]= rs.getString("Data_Wynagrodzenia");
 				i++;
 			}
-			//System.out.println(i);
 			Object[][] data1 = new Object [i][numberOfColumns+1];
 			
 			for(int k=0; k<=i-1; k++)

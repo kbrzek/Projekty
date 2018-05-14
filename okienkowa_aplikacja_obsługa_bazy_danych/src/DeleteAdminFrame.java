@@ -109,10 +109,7 @@ public class DeleteAdminFrame extends JFrame implements ActionListener{
 			       {
 			       		case "Biura":
 			       		{
-			       			
-			       		// if (model != null)
-						     //   childPanel3.remove(table);
-						 		    
+	    
 				        	query = "SELECT * FROM Biura";
 				            model = new DefaultTableModel(); 
 				    		table = new JTable(model); 			
@@ -179,10 +176,6 @@ public class DeleteAdminFrame extends JFrame implements ActionListener{
 				           
 			       		case "Operatorzy":
 				           {
-				        	   		        		
-					      // 	 if (model != null)
-							     //   childPanel3.remove(table);
-				        	   
 				        	   query = "SELECT * FROM Operatorzy";
 				        	   model = new DefaultTableModel(); 
 				       		   table = new JTable(model); 
@@ -220,8 +213,7 @@ public class DeleteAdminFrame extends JFrame implements ActionListener{
 				              table.getColumnModel().getColumn(2).setPreferredWidth(120);
 				              table.getColumnModel().getColumn(3).setPreferredWidth(140);
 				      		childPanel3.add(table,SwingConstants.CENTER);
-				      		dAdminPanel.add(childPanel3, BorderLayout.CENTER);
-				      		//jdbc.close();	  		
+				      		dAdminPanel.add(childPanel3, BorderLayout.CENTER);		
 
 				          } 			     
 
@@ -239,10 +231,6 @@ public class DeleteAdminFrame extends JFrame implements ActionListener{
 				           
 			       		case "Pracownicy":
 			       		{
-			       						       			
-			       			//if (model != null)
-			       			//	childPanel3.remove(table);
-			       			
 			       			query = "SELECT * FROM Pracownicy";
 			       			model = new DefaultTableModel(); 
 			       			table = new JTable(model);

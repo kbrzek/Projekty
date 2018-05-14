@@ -17,9 +17,6 @@ public class LogFrame extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pack();
         setVisible(true);
-        //loginPanel.verify();
-        //JButton butt = new JButton();
-        //add(butt);
         
     }
 

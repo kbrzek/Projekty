@@ -146,7 +146,6 @@ public class AddAdminFrame extends JFrame implements ActionListener{
 			case "Biura":
 			{
 				try {
-					//jdbc.rset = jdbc.stat.executeQuery("select count (*) from " + chosenTab);
 					jdbc.rset = jdbc.stat.executeQuery("select MAX(ID_"+chosenTab+") from " + chosenTab);
 					while(jdbc.rset.next())
 					{
@@ -259,7 +258,6 @@ public class AddAdminFrame extends JFrame implements ActionListener{
 			{
 				
 				try {
-					//jdbc.rset = jdbc.stat.executeQuery("select count (*) from " + chosenTab);
 					jdbc.rset = jdbc.stat.executeQuery("select MAX(ID_Operatora) from " + chosenTab);
 					while(jdbc.rset.next())
 					{
@@ -340,7 +338,6 @@ public class AddAdminFrame extends JFrame implements ActionListener{
 			case "Pracownicy":
 			{			
 				try {
-					//jdbc.rset = jdbc.stat.executeQuery("select count (*) from " + chosenTab);
 						jdbc.rset = jdbc.stat.executeQuery("select MAX(ID_Pracownika) from " + chosenTab);
 						while(jdbc.rset.next())
 					{
@@ -441,8 +438,6 @@ public class AddAdminFrame extends JFrame implements ActionListener{
 				}
 				else 
 					flagaErr = true;
-				
-				//private JTextField iF, nF, ntF, eF, uF, nbF, nlF, pF  ;
 				
 				String pes = pF.getText();
 				System.out.println(pes);

@@ -21,11 +21,7 @@ public class LogListener  {
     
     static boolean flagaPracownik;
     static boolean flagaAdministrator;
- 
-   /* public void setPanel(AdminPanel adminPanel) {
-        this.AdminPanel = adminPanel;
-    }*/
- 
+
     public LogListener(JFrame frame) {
         this.frame = frame;
     }

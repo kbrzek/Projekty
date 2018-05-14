@@ -15,10 +15,6 @@ namespace ConsoleApplication10
         public int liczbalaczy;
         double suma = 0;
 
-
-
-
-
         // fukcja znajduje min wartosc klucza wierzcholka spośród
         // tych jeszcze niezawartych w MST
         private int MinKlucz(double[] klucz, bool[] zestaw, int liczbawezlow)

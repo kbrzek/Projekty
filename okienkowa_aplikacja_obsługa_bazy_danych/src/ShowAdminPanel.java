@@ -20,10 +20,6 @@ public class ShowAdminPanel extends JFrame implements ActionListener{
 	public ShowAdminPanel() {
 
 		 super("AdminPanel");
-	     //LogListener listener = new LogListener(this);
-	     //JPanel showPanel = new JPanel();
-	    // add(loginPanel);
-	 
 	     setPreferredSize(new Dimension(800, 600));
 	     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          pack();
@@ -34,10 +30,6 @@ public class ShowAdminPanel extends JFrame implements ActionListener{
 		 wybor.setLayout(new GridLayout(1,2));
 		 String[] tablice = new String[] {"Operatorzy", "Biura", "Pracownicy", "Produkty"};
 		 bModel = new DefaultComboBoxModel(tablice);
-		 //istaTablic.addActionListener(this);
-		 //listaTablic.addActionListener(this);
-		 //listaTablic.setActionCommand("Tablica");
-			
 		
 		 JComboBox<String> listaTablic = new JComboBox<String>(bModel);
 		 
@@ -60,11 +52,9 @@ public class ShowAdminPanel extends JFrame implements ActionListener{
 		 sql2.setActionCommand("Wyslij2");
 		 add(sql2);
 		            
-								//automatyczne dopasowanie zarówno do rozmiarów (preferred size)
-										//dodanych komponentów jak i zdefiniowanego zarz¹dcy rozk³adem
+	//automatyczne dopasowanie zarówno do rozmiarów (preferred size)
+	//dodanych komponentów jak i zdefiniowanego zarz¹dcy rozk³adem
 		
-		
-
 	}
 
 	@Override
@@ -76,7 +66,6 @@ public class ShowAdminPanel extends JFrame implements ActionListener{
 		case "Wyslij1":
 			{
 				JDBC jdbc = new JDBC();
-				//jdbc.startJDBC();
 				break;
 			}
 		case "Tablica":
@@ -85,13 +74,7 @@ public class ShowAdminPanel extends JFrame implements ActionListener{
 			System.out.println(tabela);
 		}	
 		default:	
-			break;
-		
+			break;	
 	}
-
-	
-	
 	}
-
-
 }

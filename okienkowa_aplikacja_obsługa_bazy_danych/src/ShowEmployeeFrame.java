@@ -35,69 +35,7 @@ public class ShowEmployeeFrame extends JFrame implements ActionListener{
 	}
 
 	public void createPanel(String simie, String snazw, String snr_tel, String semail, String sulica, String snr_bud, String snr_lok, String spesel)
-	{	/*sEmployeePanel = new JPanel();
-		sEmployeePanel.setLayout(new GridBagLayout());
-		
-		GridBagConstraints c = new GridBagConstraints();
-		childPanel = new JPanel();
-		c.fill = GridBagConstraints.HORIZONTAL;
-		c.gridx = 0;
-		c.gridy = 1;
-		//c.ipady = 40; 
-		c.weightx = 2.0;
-		c.gridwidth = 1;
-		JPanel inputPanel = new JPanel();
-		inputPanel.setLayout(new GridLayout(8,1));
-		inputPanel.add( new JLabel("Imiê: ") );
-		inputPanel.add( new JLabel("Nazwisko: "));
-		inputPanel.add( new JLabel("Nr telefonu: ") );
-		inputPanel.add( new JLabel("Email: "));
-		inputPanel.add( new JLabel("Ulica: ") );
-		inputPanel.add( new JLabel("Nr budynku: "));
-		inputPanel.add( new JLabel("Nr lokalu: ") );
-		inputPanel.add( new JLabel("PESEL: "));
-		childPanel.add(inputPanel); 
-		sEmployeePanel.add(childPanel, c);
-		
-		GridBagConstraints c1 = new GridBagConstraints();
-		childPanel1 = new JPanel();
-		c1.fill = GridBagConstraints.HORIZONTAL;
-		c1.gridx = 1;
-		c1.gridy = 1;
-		//c1.ipady = 40; 
-		c1.weightx = 2.0;
-		c1.gridwidth = 2;
-		JPanel inputPanel1 = new JPanel();
-		inputPanel1.setLayout(new GridLayout(8,1));
-		inputPanel1.add( new JLabel("simie") );
-		inputPanel1.add( new JLabel("snazw") );
-		inputPanel1.add( new JLabel("snr_tel") );
-		inputPanel1.add( new JLabel("semail") );
-		inputPanel1.add( new JLabel("sulica") );
-		inputPanel1.add( new JLabel("snr_bud") );
-		inputPanel1.add( new JLabel("snr_lok") );
-		inputPanel1.add( new JLabel("spesel") );
-		childPanel1.add(inputPanel1, SwingConstants.CENTER);  
-		sEmployeePanel.add(childPanel1, c1);
-		
-		
-		GridBagConstraints c2 = new GridBagConstraints();
-		childPanelC = new JPanel();
-		c2.fill = GridBagConstraints.HORIZONTAL;
-		c2.gridx = 1;
-		c2.gridy = 2;
-		c2.weightx = 1.0;
-		c2.gridwidth = 1;
-		//c2.ipady = 0;   
-		c2.weighty = 1.0; 
-		c2.anchor = GridBagConstraints.PAGE_END;
-
-		JButton back = new JButton("Cofnij");
-		back.setActionCommand("Cofnij");
-		back.addActionListener(this);
-		childPanelC.add(back, SwingConstants.CENTER);
-		sEmployeePanel.add(childPanelC, c2);*/
-		
+	{
 		sEmployeePanel = new JPanel();
 		childPanel = new JPanel();
 		sEmployeePanel.setLayout(new BorderLayout());
@@ -136,7 +74,6 @@ public class ShowEmployeeFrame extends JFrame implements ActionListener{
 		inputPanel.add( new JLabel("PESEL: "));
 		inputPanel.add( new JLabel(spesel) );
 		
-		//System.out.println(simie + " " + snazw + " " +  snr_tel + " " +  semail + " " +  sulica + " " +  snr_bud + " " +  snr_lok + " " +  spesel);
 		childPanel.add(inputPanel);       
 		sEmployeePanel.add(childPanel, BorderLayout.CENTER);
 		

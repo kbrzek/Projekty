@@ -21,54 +21,13 @@ namespace ConsoleApplication10
             nodes = new List<Vertex>();
             edges = new List<Edge>();
 
-
-            //Console.WriteLine("wklej wezly");
-
-            //string line;
-            //while ((line = Console.ReadLine()) != null)
-            //{
-            //    if (line.Length == 0)
-            //    {
-            //        break;
-            //    }
-
-            //    String[] vertexes = line.Split(' ');
-            //    Vertex location = new Vertex(vertexes[0], vertexes[0], Convert.ToInt32(vertexes[1]), Convert.ToInt32(vertexes[2]));
-            //    nodes.Add(location);
-
-            //}
-            //Console.WriteLine("Wklej lacza");
-            //while ((line = Console.ReadLine()) != null)
-            //{
-            //    if (line.Length == 0)
-            //    {
-            //        break;
-            //    }
-
-            //    String[] vertexes = line.Split(' ');
-            //    addLane(vertexes[0], Convert.ToInt32(vertexes[1]), Convert.ToInt32(vertexes[2]));
-
-            //}
-
-            
-           
-
-
-          int x;
+            int x;
             int y;
             System.Console.WriteLine("podaj wezel poczatkowy");
             x = Convert.ToInt32(Console.ReadLine());
             System.Console.WriteLine("podaj wezel koncowy");
             y = Convert.ToInt32(Console.ReadLine());
 
-
-            //Wezel[] wezly = new Wezel[6];
-            //wezly[0] = new Wezel(1, 1, 1);
-            //wezly[1] = new Wezel(2, 3, 1);
-            //wezly[2] = new Wezel(3, 2, 2);
-            //wezly[3] = new Wezel(4, 1, 2);
-            //wezly[4] = new Wezel(5, 3, 2);
-            //wezly[5] = new Wezel(6, 2, 3);
 
             foreach (Wezel i in nowy.wezly)
             {
@@ -80,13 +39,6 @@ namespace ConsoleApplication10
 
             }
 
-            //Lacze[] lacza1 = new Lacze[6];
-            //lacza1[0] = new Lacze(1, 1, 2);
-            //lacza1[1] = new Lacze(2, 2, 3);
-            //lacza1[2] = new Lacze(3, 2, 4);
-            //lacza1[3] = new Lacze(4, 4, 6);
-            //lacza1[4] = new Lacze(5, 3, 6);
-            //lacza1[5] = new Lacze(6, 6, 5);
 
             foreach (Lacze i in nowy.lacza1)
             {
@@ -99,15 +51,7 @@ namespace ConsoleApplication10
             }
 
 
-
-
-
-
-
-
             Graph graph = new Graph(nodes, edges);
-
-
 
             DijkstraAlgorithm dijkstra = new DijkstraAlgorithm(graph);
             dijkstra.execute(nodes[x]);
@@ -120,9 +64,6 @@ namespace ConsoleApplication10
                 System.Console.WriteLine(vertex);
             }
             System.Console.ReadKey();
-
-
-
 
         }
 
